@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://brandonseverin.github.io/blog/markdown/2020/01/14/test-markdown-post.html</loc>
+<loc>https://blog.brandonseverin.com/markdown/2020/01/14/test-markdown-post.html</loc>
 <lastmod>2020-01-14T00:00:00-06:00</lastmod>
 </url>
 <url>
-<loc>https://brandonseverin.github.io/blog/jupyter/2020/02/20/test.html</loc>
+<loc>https://blog.brandonseverin.com/jupyter/2020/02/20/test.html</loc>
 <lastmod>2020-02-20T00:00:00-06:00</lastmod>
 </url>
 <url>
-<loc>https://brandonseverin.github.io/blog/notes/talks/2022/05/18/Using-AI-to-Accelerate-Scientific-Discovery.html</loc>
+<loc>https://blog.brandonseverin.com/notes/talks/2022/05/18/Using-AI-to-Accelerate-Scientific-Discovery.html</loc>
 <lastmod>2022-05-18T00:00:00-05:00</lastmod>
 </url>
 <url>
-<loc>https://brandonseverin.github.io/blog/about/</loc>
+<loc>https://blog.brandonseverin.com/about/</loc>
 </url>
 <url>
-<loc>https://brandonseverin.github.io/blog/</loc>
+<loc>https://blog.brandonseverin.com/</loc>
 </url>
 <url>
-<loc>https://brandonseverin.github.io/blog/search/</loc>
+<loc>https://blog.brandonseverin.com/search/</loc>
 </url>
 <url>
-<loc>https://brandonseverin.github.io/blog/categories/</loc>
+<loc>https://blog.brandonseverin.com/categories/</loc>
 </url>
 </urlset>

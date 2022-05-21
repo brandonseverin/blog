@@ -1,1 +1,1 @@
-Sitemap: https://brandonseverin.github.io/blog/sitemap.xml
+Sitemap: https://blog.brandonseverin.com/sitemap.xml
