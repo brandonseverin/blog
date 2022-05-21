@@ -2,6 +2,7 @@
 toc: true
 layout: post
 description: Oxford University's Institute for Ethics in AI, Sheldonian Theatre
+comments: true
 categories: [notes, talks]
 title: Using AI to Accelerate Scientific Discovery - Demis Hassabis
 ---
