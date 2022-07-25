@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>zk-SPARK StarkNet Bootcamp | Brandon Severin’s Blog</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="zk-SPARK StarkNet Bootcamp" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="intro to starkware" />
+<meta property="og:description" content="intro to starkware" />
+<link rel="canonical" href="https://blog.brandonseverin.com/notes/talks/2022/07/16/ZKSpark-Bootcamp.html" />
+<meta property="og:url" content="https://blog.brandonseverin.com/notes/talks/2022/07/16/ZKSpark-Bootcamp.html" />
+<meta property="og:site_name" content="Brandon Severin’s Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-07-16T00:00:00-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="zk-SPARK StarkNet Bootcamp" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-07-16T00:00:00-05:00","datePublished":"2022-07-16T00:00:00-05:00","description":"intro to starkware","headline":"zk-SPARK StarkNet Bootcamp","mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.brandonseverin.com/notes/talks/2022/07/16/ZKSpark-Bootcamp.html"},"url":"https://blog.brandonseverin.com/notes/talks/2022/07/16/ZKSpark-Bootcamp.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://blog.brandonseverin.com/feed.xml" title="Brandon Severin's Blog" /><link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Brandon Severin&#39;s Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About Me</a><a class="page-link" href="/search/">Search</a><a class="page-link" href="/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">zk-SPARK StarkNet Bootcamp</h1><p class="page-description">intro to starkware</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-07-16T00:00:00-05:00" itemprop="datePublished">
+        Jul 16, 2022
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      3 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/categories/#notes">notes</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/categories/#talks">talks</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul id="toc" class="section-nav">
+<li class="toc-entry toc-h2"><a href="#fields">Fields</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#zk-ecosystem">zk Ecosystem</a></li>
+<li class="toc-entry toc-h3"><a href="#rollups">Rollups</a></li>
+<li class="toc-entry toc-h3"><a href="#questions-from-the-first-session">Questions from the first session</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#the-cairo-language">The cairo language</a></li>
+<li class="toc-entry toc-h2"><a href="#20220717---day-2">20220717 - Day 2</a></li>
+</ul><h2 id="fields">
+<a class="anchor" href="#fields" aria-hidden="true"><span class="octicon octicon-link"></span></a>Fields</h2>
+
+<ul>
+  <li>Define a field just for two operations</li>
+  <li>A field is a set of integers with two fields</li>
+  <li>Division is tricky because if we divide two integers we get may get a float</li>
+  <li>
+</ul>
+
+<h3 id="zk-ecosystem">
+<a class="anchor" href="#zk-ecosystem" aria-hidden="true"><span class="octicon octicon-link"></span></a>zk Ecosystem</h3>
+
+<ul>
+  <li>stark system came out in 1976</li>
+  <li>Halo BulletProof - multi person computation. Need to go through ceremony to set up system</li>
+  <li>ZKSNARKS have small proofs but require an initial setup and are not quantum resistant</li>
+</ul>
+
+<h3 id="rollups">
+<a class="anchor" href="#rollups" aria-hidden="true"><span class="octicon octicon-link"></span></a>Rollups</h3>
+<ul>
+  <li>transaction execution is done outside layer 1</li>
+  <li>data or proof of transaction is on layer 1 (incl. state transitions)</li>
+  <li>Verifier is a contract on layer 1 and can secure the latest state</li>
+  <li>zero knowledge proofs can be done recursively
+    <ul>
+      <li>a proof to prove 100 proofs are valid</li>
+      <li>layer 3 and layer 4 -&gt; can create specific applications on each layer which passes proofs to layer 2 which bundles them into a single proof for submission to layer 1.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="questions-from-the-first-session">
+<a class="anchor" href="#questions-from-the-first-session" aria-hidden="true"><span class="octicon octicon-link"></span></a>Questions from the first session</h3>
+<ul>
+  <li>How does the colorblind verifier know which had the different colored balls are in. This relies on some form of a trusted setup, is this setup similar to the initial ceremony used in setting up the starknet ecosystem</li>
+</ul>
+
+<p>—
+Break
+—</p>
+
+<p>Interesting projects on Starknet:</p>
+<ul>
+  <li>Game of Life</li>
+  <li>
+    <p>Giza - machine learning on starlet</p>
+  </li>
+  <li>transaction process: the state of the system is able to be reconstructed by running though the transactions in the blocks</li>
+  <li>Signatures are done differently on starkness compared to ethereum. You have account abstraction in starknet as your account is a contract</li>
+  <li>Drawbacks form transpilers
+    <ul>
+      <li>is the code that you wrote in solidity idiomatic for solidity?</li>
+    </ul>
+  </li>
+  <li>cairo playground is a great tool</li>
+  <li>run a local node for testing as the bundling of transactions on testate takes a while
+    <ul>
+      <li>protostars and nile allow you to do this</li>
+    </ul>
+  </li>
+  <li>Protostar is better than Nile which is better than starknet CLI</li>
+  <li>Voyager is the main block explore</li>
+</ul>
+
+<h2 id="the-cairo-language">
+<a class="anchor" href="#the-cairo-language" aria-hidden="true"><span class="octicon octicon-link"></span></a>The cairo language</h2>
+<ul>
+  <li>you may use some of the implicit arguments that are passed to your function</li>
+  <li>Hints
+    <ul>
+      <li>when we are writing a program we are trying to prove the correctness of the computation, not try and calculate this value</li>
+      <li>We therefore may want to pass the value that we want to prove into the programme as a hint</li>
+      <li>You need to use python for this</li>
+    </ul>
+  </li>
+  <li>Output
+    <ul>
+      <li>serialise word: output the values for different variables</li>
+      <li>a nice way to log things out from your code</li>
+      <li>This output is seen by the validator</li>
+    </ul>
+  </li>
+  <li>Entrypoint
+    <ul>
+      <li>this is the main function</li>
+    </ul>
+  </li>
+  <li>Should an argument be implicit or normal
+    <ul>
+      <li>The implicit argument is more around the low level things that ae happening around your code</li>
+      <li>Normal arguments are for the business logic - similar to those that you’d have in solidity</li>
+    </ul>
+  </li>
+  <li>Error messages and scope attributes
+    <ul>
+      <li>strange syntax, attribute must be a string</li>
+    </ul>
+  </li>
+  <li>This afternoon we go through some cairo examples and go through the language</li>
+  <li>1 hour break
+    <ul>
+      <li>then we will look at writing contracts</li>
+      <li>—
+Break
+—</li>
+    </ul>
+  </li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">range_check_ptr</code> is to make sure things haven’t overflow
+The other two implicit variables are for storage slots</p>
+
+<p>https://github.com/ExtropyIO/ZKSparkWorkshop</p>
+
+<h2 id="20220717---day-2">
+<a class="anchor" href="#20220717---day-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>20220717 - Day 2</h2>
+
+<ul>
+  <li>No loops in cairo, use recursion</li>
+  <li>Validium mode: data is stored off chain</li>
+  <li>Volition mode is a hybrid, data is stored off chain and on chain</li>
+  <li>You can’t prove if a transaction is going to revert/result in an error.
+    <ul>
+      <li>The reason is that for a transaction to fail, one needs to prove that the transaction resulted in an error</li>
+      <li>Potential for denial of service attacks</li>
+    </ul>
+  </li>
+  <li>L1 to L2 messaging mechanism
+    <ul>
+      <li>Sequencers could skip messages, it is worth checking that the message has been passed on by the starkness sequencer</li>
+      <li>Sequencers may eventually need to put up a stake and it is slashed if they skip messages to incentivise fair good practise</li>
+    </ul>
+  </li>
+  <li>Gaming on starknet
+    <ul>
+      <li>regard things as final once submitted to the sequencer</li>
+      <li>Checkout Starknet react</li>
+    </ul>
+  </li>
+</ul>
+
+  </div><a class="u-url" href="/notes/talks/2022/07/16/ZKSpark-Bootcamp.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Brandon Severin&#39;s Blog - since 2021</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/brandonseverin" target="_blank" title="brandonseverin"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/brandonseverin" target="_blank" title="brandonseverin"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
