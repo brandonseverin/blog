@@ -33,7 +33,8 @@ Question: What if the total capital to realise the arbitrage doesn’t exist.
 
 ## Tarun Chitra - Towards Theory of Maximal Extractable Value
 > Even rotten sandwiches can taste good in a while
-> Link to paper is [here](https://people.eecs.berkeley.edu/~ksk/files/MEV_CFMM.pdf)
+
+**Link to paper is [here](https://people.eecs.berkeley.edu/~ksk/files/MEV_CFMM.pdf)**
 
 - Thought: Do you ever find utilitarian MEV?
 - Constant function market makers
