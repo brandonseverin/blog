@@ -96,6 +96,11 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h4"><a href="#cloning-an-environment">cloning an environment</a></li>
 </ul>
 </li>
+<li class="toc-entry toc-h3"><a href="#general">General</a>
+<ul>
+<li class="toc-entry toc-h4"><a href="#compatible-type-hints-across-various-versions">Compatible type hints across various versions</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul><h2 id="python">
@@ -109,6 +114,17 @@ window.onload = wrap_img;
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">conda</span> <span class="n">create</span> <span class="o">--</span><span class="n">name</span> <span class="n">myclone</span> <span class="o">--</span><span class="n">clone</span> <span class="n">myenv</span>
 </code></pre></div></div>
+
+<h3 id="general">
+<a class="anchor" href="#general" aria-hidden="true"><span class="octicon octicon-link"></span></a>General</h3>
+
+<h4 id="compatible-type-hints-across-various-versions">
+<a class="anchor" href="#compatible-type-hints-across-various-versions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Compatible type hints across various versions</h4>
+<p>Place the following at the top of the module</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">annotations</span>
+</code></pre></div></div>
+<p>See this <a href="https://stackoverflow.com/questions/63939138/is-there-a-way-to-use-python-3-9-type-hinting-in-its-previous-versions">stack overflow link here</a> for more details and the <a href="https://docs.python.org/3/library/__future__.html">python docs</a></p>
 
   </div><a class="u-url" href="/2022/06/14/Code-Snippets.html" hidden></a>
 </article>
