@@ -14,6 +14,11 @@ layout: post
 ```python
 conda create --name myclone --clone myenv
 ```
+#### removing an environment
+
+```python
+conda remove --name myenv --all
+```
 
 ### General
 
