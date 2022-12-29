@@ -93,6 +93,7 @@ window.onload = wrap_img;
 <ul>
 <li class="toc-entry toc-h3"><a href="#anaconda">Anaconda</a>
 <ul>
+<li class="toc-entry toc-h4"><a href="#create-an-environment-spec-file-operating-system-specific">Create an environment spec file (operating system specific)</a></li>
 <li class="toc-entry toc-h4"><a href="#cloning-an-environment">cloning an environment</a></li>
 <li class="toc-entry toc-h4"><a href="#removing-an-environment">removing an environment</a></li>
 </ul>
@@ -110,15 +111,21 @@ window.onload = wrap_img;
 <h3 id="anaconda">
 <a class="anchor" href="#anaconda" aria-hidden="true"><span class="octicon octicon-link"></span></a>Anaconda</h3>
 
+<h4 id="create-an-environment-spec-file-operating-system-specific">
+<a class="anchor" href="#create-an-environment-spec-file-operating-system-specific" aria-hidden="true"><span class="octicon octicon-link"></span></a>Create an environment spec file (operating system specific)</h4>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda list <span class="nt">--explicit</span> <span class="o">&gt;</span> spec_file.txt
+</code></pre></div></div>
+
 <h4 id="cloning-an-environment">
 <a class="anchor" href="#cloning-an-environment" aria-hidden="true"><span class="octicon octicon-link"></span></a>cloning an environment</h4>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">conda</span> <span class="n">create</span> <span class="o">--</span><span class="n">name</span> <span class="n">myclone</span> <span class="o">--</span><span class="n">clone</span> <span class="n">myenv</span>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda create <span class="nt">--name</span> myclone <span class="nt">--clone</span> myenv
 </code></pre></div></div>
 <h4 id="removing-an-environment">
 <a class="anchor" href="#removing-an-environment" aria-hidden="true"><span class="octicon octicon-link"></span></a>removing an environment</h4>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">conda</span> <span class="n">remove</span> <span class="o">--</span><span class="n">name</span> <span class="n">myenv</span> <span class="o">--</span><span class="nb">all</span>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda remove <span class="nt">--name</span> myenv <span class="nt">--all</span>
 </code></pre></div></div>
 
 <h3 id="general">
@@ -144,7 +151,7 @@ window.onload = wrap_img;
     <div class="footer-col-wrapper">
       <div class="footer-col">
         <p class="feed-subscribe">
-          <a href="/feed.xml">
+          <a href="https://blog.brandonseverin.com/feed.xml">
             <svg class="svg-icon orange">
               <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
             </svg><span>Subscribe</span>

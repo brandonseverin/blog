@@ -80,7 +80,7 @@
     
         ,"post7": {
             "title": "Code Snippets",
-            "content": "Python . Anaconda . cloning an environment . conda create --name myclone --clone myenv . removing an environment . conda remove --name myenv --all . General . Compatible type hints across various versions . Place the following at the top of the module . from __future__ import annotations . See this stack overflow link here for more details and the python docs .",
+            "content": "Python . Anaconda . Create an environment spec file (operating system specific) . conda list --explicit &gt; spec_file.txt . cloning an environment . conda create --name myclone --clone myenv . removing an environment . conda remove --name myenv --all . General . Compatible type hints across various versions . Place the following at the top of the module . from __future__ import annotations . See this stack overflow link here for more details and the python docs .",
             "url": "https://blog.brandonseverin.com/2022/06/14/Code-Snippets.html",
             "relUrl": "/2022/06/14/Code-Snippets.html",
             "date": " • Jun 14, 2022"
