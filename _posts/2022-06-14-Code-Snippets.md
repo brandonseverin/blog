@@ -9,14 +9,20 @@ layout: post
 
 ### Anaconda
 
+#### Create an environment spec file (operating system specific)
+
+```bash
+conda list --explicit > spec_file.txt
+```
+
 #### cloning an environment
 
-```python
+```bash
 conda create --name myclone --clone myenv
 ```
 #### removing an environment
 
-```python
+```bash
 conda remove --name myenv --all
 ```
 
