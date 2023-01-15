@@ -101,6 +101,8 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h3"><a href="#general">General</a>
 <ul>
 <li class="toc-entry toc-h4"><a href="#compatible-type-hints-across-various-versions">Compatible type hints across various versions</a></li>
+<li class="toc-entry toc-h4"><a href="#greek-letters">Greek letters</a></li>
+<li class="toc-entry toc-h4"><a href="#plot-legend-position">plot legend position</a></li>
 </ul>
 </li>
 </ul>
@@ -138,6 +140,33 @@ window.onload = wrap_img;
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">annotations</span>
 </code></pre></div></div>
 <p>See this <a href="https://stackoverflow.com/questions/63939138/is-there-a-way-to-use-python-3-9-type-hinting-in-its-previous-versions">stack overflow link here</a> for more details and the <a href="https://docs.python.org/3/library/__future__.html">python docs</a></p>
+
+<h4 id="greek-letters">
+<a class="anchor" href="#greek-letters" aria-hidden="true"><span class="octicon octicon-link"></span></a>Greek letters</h4>
+<p>Python has support for unicode fonts, <a href="https://pythonforundergradengineers.com/unicode-characters-in-python.html">source</a></p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="k">print</span><span class="p">(</span><span class="s">'Omega: </span><span class="se">\u03A9</span><span class="s">'</span><span class="p">)</span>
+<span class="n">Omega</span><span class="p">:</span> <span class="n">Ω</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">print</span><span class="p">(</span><span class="s">'Delta: </span><span class="se">\u0394</span><span class="s">'</span><span class="p">)</span>
+<span class="n">Delta</span><span class="p">:</span> <span class="n">Δ</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">print</span><span class="p">(</span><span class="s">'sigma: </span><span class="se">\u03C3</span><span class="s">'</span><span class="p">)</span>
+<span class="n">sigma</span><span class="p">:</span> <span class="n">σ</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">print</span><span class="p">(</span><span class="s">'mu: </span><span class="se">\u03BC</span><span class="s">'</span><span class="p">)</span>
+<span class="n">mu</span><span class="p">:</span> <span class="n">μ</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">print</span><span class="p">(</span><span class="s">'epsilon: </span><span class="se">\u03B5</span><span class="s">'</span><span class="p">)</span>
+<span class="n">epsilon</span><span class="p">:</span> <span class="n">ε</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">print</span><span class="p">(</span><span class="s">'degree: </span><span class="se">\u00B0</span><span class="s">'</span><span class="p">)</span>
+<span class="n">degree</span><span class="p">:</span> <span class="err">°</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">print</span><span class="p">(</span><span class="s">'6i</span><span class="se">\u0302</span><span class="s"> + 4j</span><span class="se">\u0302</span><span class="s">-2k</span><span class="se">\u0302</span><span class="s">'</span><span class="p">)</span>
+<span class="mi">6</span><span class="n">i</span><span class="err">̂</span> <span class="o">+</span> <span class="mf">4j</span><span class="err">̂</span><span class="o">-</span><span class="mi">2</span><span class="n">k</span><span class="err">̂</span>
+</code></pre></div></div>
+
+<h4 id="plot-legend-position">
+<a class="anchor" href="#plot-legend-position" aria-hidden="true"><span class="octicon octicon-link"></span></a>plot legend position</h4>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+
+<span class="n">plt</span><span class="p">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s">'upper right'</span><span class="p">)</span>
+</code></pre></div></div>
 
   </div><a class="u-url" href="/2022/06/14/Code-Snippets.html" hidden></a>
 </article>
