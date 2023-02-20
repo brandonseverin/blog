@@ -64,3 +64,11 @@ import matplotlib.pyplot as plt
 
 plt.legend(loc='upper right')
 ```
+
+
+## Libre Office - Impress
+
+#### Create an image with rounded corners
+- Overlay a rectangle with rounded corners over the image. 
+- select the image and the rectangle
+- right-click -> shapes -> Intersect
