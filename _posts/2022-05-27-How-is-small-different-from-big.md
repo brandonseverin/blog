@@ -1,7 +1,7 @@
 ---
 toc: true
 layout: post
-description: Celebrating Prof. Andrew Brigg's birthday
+description: Celebrating Prof. Andrew Briggs's birthday
 categories: [notes, talks]
 title: How is small different from big? 
 ---
