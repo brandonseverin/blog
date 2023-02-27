@@ -148,6 +148,7 @@ title: "Quantum Australia 2023"
 - 
 
 ## Hon Ed Husic MP - federal minister for inductry nad science - Delivering on australia's strengths in quanutm technologies
+
 - Acknowledgement 
 - Not announcing quantum strategy today 
 - 19k jobs by 2045. conservative estimate. mostlikely 50k
@@ -155,4 +156,57 @@ title: "Quantum Australia 2023"
 - 1B fund, loands, bills and equity. Similar fashion to clean energy corporation fund
 - Vikram sharma - quantum random number generation
 - QCtl - softtware to IBM and regetti. team from 80 to 120 people
--   
+
+
+## Panel: Cyber security in the quantum age Alexey Bocharnikov, APAC Quantum Technology Leader, EY
+
+Lily Lidong Chen, Manager, Cryptographic Technology Group, Computer Security Division, National Institute of Standards and Technology, USA (V);
+Julian Fay, Chief Technology Officer, Senetas;
+Peter Rohde, Senior Lecturer, UTS;Gavin Brennen, Professor, Macquarie University (Panel Chair)    - you don't just a cryptographic system to be secure. You also want it to work.
+- a quantum network will be more sparse than classical Mensing it may be possible to cut nodes of the network off due to reduced oath redundancy
+- bear in mind QKD will be used to protect precisely the things that you don't want to cut off
+- QKD doesn't meet the assurance requirements of most western governments at the moment. PQC is the future more than QKD. PQC can be used in a hybrid manner and QKD could be used to complement classical things
+- want to be able to change the underlying encryption algorithm when you need to. This is hard.
+- organising an full upgrade of any organisation will be very hard. It may take decades for many organisations and will be continual learning from their mistakes. Improvements will be gradual.
+- how paranoid should we be with PQC? Is it as safe as we believe it to be.
+- will need to consider the cost of an attack, may not be worth it.
+- quantum internet and computing. Homomorphic encryption and blind computing. You don't want the person performing your computation to know what you're computing. Can be done with relatively little overhead if you have a quantum encryption network. Important as the things we'd be computing are likely to have high value implications.
+- Decentralised quantum computing.
+- should we trust nation states with the security of quantum cryptography in terms of back doors.
+- looking for hashing collisions.
+- Hashing algorithms are secure by doubling the key length## Michael Cuthbert, Director, National Quantum Computing Centre (NQCC) UK- see their role as not trying to do everything themselves. Want international collaboration and accelerate the roadmap for the wider ecosystem
+- establishing a new national laboratory
+- build consensus, don't assume that their is a clear or shared vision amongst key stake holders
+- plan for life
+- hire early , recruitment is tough. The more you can build the team up the faster you can go.
+- stay focused. Have a clear plan, be ready to adapt but avoid snap responses.
+- over communicate. Keep everybody updated. Don't assume an audience that has heard the plans that they were listening.##  Andrew Dzurak, CEO & Founder, Diraq- quantum counting private investment greater than $1B per annum
+- fault tolerant market will eventually be a fraction of $1T dollars per annum.
+- reading: Kearney 2021: Quantum Computing. Why should you care
+- Reiher - Elucidating reaction mechanisms on quantum computers
+- Only 10e5 qubits are needed if the error rates are 10e-9
+- networking is a huge challenge for current quantum computing architectures. Diraq wants the opposite. Quantum computer on a chip - similar to current computers
+- history of 1998 to 2023 of work on Silicon.
+- $31M from Army research
+- qubits made by advance semiconductor manufacturing - J Clarke
+- get 9 logical qubits in 3 years
+- start the move towards to fault tolerance in 6 years
+
+
+## Panel: Australia’s strengths in quantum sensing> Andre Luiten, Managing Director, QuantX Pty Ltd;
+
+Silvana Palacios, Lead Quantum Physicist, Nomad Atomics;
+Jim Rabeau, Director, Quantum Technologies, CSIRO (Panel Chair)- we can cook quantum sensing croissants with 50% reliability. Next step is reliable mass production
+- if you are able to speak the language that industry understands labs with find partners very easily
+- why quantum sensors: what do we do if GPS goes down. We need a sovereign capability of telling time and location. $2B a day in Australia depends on knowing the time correctly. Sensitivity and accuracy.
+- the issue is rejecting background noise rateher than finding the target. Quantum sensors give you an absolute result. It doesn't drift and doesn't need calibration
+
+
+## Panel: Bridging the research to commercialisation gap> Clare Birch, Associate, Blackbird;
+Lucas Hakewill, Accelerator Program Manager, UNSW Founders
+Nat Puffer, Managing Director, IQT International;
+Thomas Volz, Professor, Macquarie University and Strategic Partnerships Manager, Redback Systems;
+Annie Parker, Executive Director, Tech Central, Greater Cities Commission (Panel Chair);
+- Clair. Billion dlar fund. Blackbird ventures
+- Founders 10x UNSW, Lucas hakewill
+- what can the investment community do better.
