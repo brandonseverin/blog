@@ -180,7 +180,9 @@ Peter Rohde, Senior Lecturer, UTS;Gavin Brennen, Professor, Macquarie University
 - plan for life
 - hire early , recruitment is tough. The more you can build the team up the faster you can go.
 - stay focused. Have a clear plan, be ready to adapt but avoid snap responses.
-- over communicate. Keep everybody updated. Don't assume an audience that has heard the plans that they were listening.##  Andrew Dzurak, CEO & Founder, Diraq- quantum counting private investment greater than $1B per annum
+- over communicate. Keep everybody updated. Don't assume an audience that has heard the plans that they were listening.
+
+## Andrew Dzurak, CEO & Founder, Diraq- quantum counting private investment greater than $1B per annum
 - fault tolerant market will eventually be a fraction of $1T dollars per annum.
 - reading: Kearney 2021: Quantum Computing. Why should you care
 - Reiher - Elucidating reaction mechanisms on quantum computers
