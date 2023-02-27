@@ -102,7 +102,7 @@ title: "Quantum Australia 2023"
 - quantum computing diploma in graduate studies
 
 
-## Jamie O'Brien - PsiQuantum 
+## Jeremy O'Brien - PsiQuantum 
 - Startup company
 - HQ in California, team members in UK, 
 - foudning thesis - utility means error correction, which means millions of qubits, 
