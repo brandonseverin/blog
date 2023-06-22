@@ -96,3 +96,11 @@ Source: [free code camp: how-to-write-better-git-commit-messages](https://www.fr
 - Overlay a rectangle with rounded corners over the image. 
 - select the image and the rectangle
 - right-click -> shapes -> Intersect
+
+## LaTex
+*Large and archaic but for some reason people love it*
+Installation on local machine:
+
+https://www.tug.org/texlive/
+
+Best off download the largest package, don't bother with basictex or tiny tex. Just get the full TexLive and MacTex
