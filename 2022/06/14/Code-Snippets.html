@@ -7,7 +7,7 @@
        • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      2 min read
     
 </span></p>
 
@@ -30,6 +30,7 @@
 <ul>
 <li class="toc-entry toc-h4"><a href="#compatible-type-hints-across-various-versions">Compatible type hints across various versions</a></li>
 <li class="toc-entry toc-h4"><a href="#greek-letters">Greek letters</a></li>
+<li class="toc-entry toc-h4"><a href="#automatically-reload-modules-in-jupyter-notebook">Automatically reload modules in jupyter notebook</a></li>
 <li class="toc-entry toc-h4"><a href="#plot-legend-position">plot legend position</a></li>
 </ul>
 </li>
@@ -98,6 +99,14 @@
 <span class="o">&gt;&gt;&gt;</span> <span class="k">print</span><span class="p">(</span><span class="s">'6i</span><span class="se">\u0302</span><span class="s"> + 4j</span><span class="se">\u0302</span><span class="s">-2k</span><span class="se">\u0302</span><span class="s">'</span><span class="p">)</span>
 <span class="mi">6</span><span class="n">i</span><span class="err">̂</span> <span class="o">+</span> <span class="mf">4j</span><span class="err">̂</span><span class="o">-</span><span class="mi">2</span><span class="n">k</span><span class="err">̂</span>
 </code></pre></div></div>
+
+<h4 id="automatically-reload-modules-in-jupyter-notebook">
+<a class="anchor" href="#automatically-reload-modules-in-jupyter-notebook" aria-hidden="true"><span class="octicon octicon-link"></span></a>Automatically reload modules in jupyter notebook</h4>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># reload modules if there is a change
+</span><span class="o">%</span><span class="n">load_ext</span> <span class="n">autoreload</span>
+<span class="o">%</span><span class="n">autoreload</span> <span class="mi">2</span>
+</code></pre></div></div>
+<p>Place in top cell where modules are imported - useful for rapid testing and development of a python package</p>
 
 <h4 id="plot-legend-position">
 <a class="anchor" href="#plot-legend-position" aria-hidden="true"><span class="octicon octicon-link"></span></a>plot legend position</h4>
