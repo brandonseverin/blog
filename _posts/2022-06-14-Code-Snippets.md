@@ -57,6 +57,15 @@ degree: °
 6î + 4ĵ-2k̂
 ```
 
+#### Automatically reload modules in jupyter notebook
+```python
+# reload modules if there is a change
+%load_ext autoreload
+%autoreload 2
+```
+Place in top cell where modules are imported - useful for rapid testing and development of a python package
+
+
 #### plot legend position
 
 ```python
