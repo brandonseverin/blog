@@ -113,3 +113,18 @@ Installation on local machine:
 https://www.tug.org/texlive/
 
 Best off download the largest package, don't bother with basictex or tiny tex. Just get the full TexLive and MacTex
+
+## Inkscape
+
+#### Crop an image in inkscape
+```
+1. Open Your Image in Inkscape.
+2. Select a Vector Shape.
+3. Add the Shape to the Canvas.
+4. Reduce the Shape Opacity to Position the Crop.
+5. Select the Shape and the Image Together.
+6. Go to Object > Clip > Set Clip.
+7. Check the Crop.
+8. Release the Clip (if Needed)
+```
+Source: [imagy.app]([https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjPqJXD79yAAxVikYkEHVEhC5QQFnoECA4QAw&url=https%3A%2F%2Fimagy.app%2Fhow-to-crop-in-inkscape%2F&usg=AOvVaw1VRSg7Og34EvwaPkKEv671&opi=89978449](https://imagy.app/how-to-crop-in-inkscape/)https://imagy.app/how-to-crop-in-inkscape/)
